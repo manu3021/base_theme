@@ -2019,3 +2019,26 @@
     order: -1; }
   .last-lg {
     order: 1; } }
+
+.content-width {
+  margin: auto;
+  display: inline-block;
+  width: auto; }
+  .content-width li {
+    display: inline-block;
+    padding: 0;
+    list-style: none; }
+    .content-width li a {
+      color: #4d4d4d;
+      text-transform: uppercase;
+      text-align: left !important;
+      letter-spacing: 1.5px;
+      padding: 6px 0 4px 10px;
+      text-decoration: none;
+      position: relative;
+      z-index: 20;
+      display: inline-block;
+      height: 42px;
+      font-size: 13px;
+      line-height: 24px;
+      font-weight: bold; }
